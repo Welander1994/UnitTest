@@ -2,6 +2,9 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
+## Code Coverage
+[![codecov](https://codecov.io/gh/Welander1994/UnitTest/branch/main/graph/badge.svg?token=YGTO0FCVRG)](https://codecov.io/gh/Welander1994/UnitTest)
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
@@ -34,9 +37,4 @@ npm run build
 npm run test:unit
 ```
 
-## Code Coverage
-
-The code coverage for this project is as follows:
-
-[![codecov](https://codecov.io/gh/Welander1994/UnitTest/branch/main/graph/badge.svg?token=YGTO0FCVRG)](https://codecov.io/gh/Welander1994/UnitTest)
 
