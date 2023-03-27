@@ -7,7 +7,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "test:unit": "vitest",
-    "test": "vitest",
+    "test": "vitest --outputFile=test-results.txt",
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
