@@ -38,6 +38,5 @@ npm run test:unit
 
 The code coverage for this project is as follows:
 
-```markdown
-${include(./coverage/index.html)}
+[![codecov](https://codecov.io/gh/Welander1994/UnitTest/branch/main/graph/badge.svg?token=YGTO0FCVRG)](https://codecov.io/gh/Welander1994/UnitTest)
 
