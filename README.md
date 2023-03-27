@@ -33,3 +33,7 @@ npm run build
 ```sh
 npm run test:unit
 ```
+
+### Coverage
+
+${include(./coverage/index.html)}
