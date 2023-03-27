@@ -34,6 +34,10 @@ npm run build
 npm run test:unit
 ```
 
-### Coverage
+## Code Coverage
 
+The code coverage for this project is as follows:
+
+```markdown
 ${include(./coverage/index.html)}
+
