@@ -9,12 +9,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-  steps:
+    steps:
     - uses: actions/checkout@v2
     - name: Install Dependencies
       run: npm install
     - name: Run Unit Tests
-      run: npm run test
+      run: npm run test:unit -- --watchAll=false --reporters=default --reporters=jest-junit
     - name: Display Test Results
       run: |
+        cat junit.xml
         cat test-results.txt
